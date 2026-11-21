@@ -10,6 +10,7 @@
     "基线拟合",
     "损失核算",
     "能量对账",
+    "结算计价",
     "运行归档"
   ],
   "rule": "仅用有效对照逆变器和相同辐照区间拟合基线；重叠限电事件先求并集再积分",
@@ -29,6 +30,7 @@
     "baseline",
     "loss",
     "reconcile",
+    "settlement",
     "archive"
   ],
   "labels": {
@@ -67,6 +69,30 @@
     "unknown_seconds": "未定 s",
     "line": "原始行",
     "_line": "原始行",
-    "detail": "原因"
+    "detail": "原因",
+    "tariff_ids": "费率依据",
+    "tariff_id": "费率编号",
+    "price_cny_per_kwh": "费率 元/kWh",
+    "basis": "费率来源",
+    "amount_cny": "金额 CNY",
+    "instruction_price": "指令费率",
+    "instruction_ids": "指令费率依据",
+    "instruction_amount_cny": "指令口径合计 CNY",
+    "instruction_code": "指令费率状态",
+    "total_amount_cny": "入账金额 CNY",
+    "priced_loss_kwh": "已计价损失 kWh",
+    "pending_loss_kwh": "待核损失 kWh",
+    "pending_segments": "待核片段",
+    "priced_segments": "已计价片段",
+    "difference_cny": "与指令口径差额 CNY",
+    "instruction_complete": "指令口径完整",
+    "bookable": "可入账",
+    "source": "来源",
+    "price": "费率",
+    "segments": "片段数",
+    "priced_amount_cny": "已计价金额 CNY（待核不计）",
+    "owner_event": "主责任事件",
+    "shared_with": "协同事件",
+    "reason": "待核原因"
   }
 }
